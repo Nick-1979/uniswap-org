@@ -57,7 +57,7 @@ Adds liquidity to an ERC-20⇄ERC-20 pool.
 | Name           | Type      |                                                                                                                |
 | :------------- | :-------- | :------------------------------------------------------------------------------------------------------------- |
 | tokenA         | `address` | A pool token.                                                                                                  |
-| tokenB         | `address` | A pool token.                                                                                                  |
+| tokenB         | `address` | B pool token.                                                                                                  |
 | amountADesired | `uint`    | The amount of tokenA to add as liquidity if the B/A price is <= amountBDesired/amountADesired (A depreciates). |
 | amountBDesired | `uint`    | The amount of tokenB to add as liquidity if the A/B price is <= amountADesired/amountBDesired (B depreciates). |
 | amountAMin     | `uint`    | Bounds the extent to which the B/A price can go up before the transaction reverts. Must be <= amountADesired.  |
